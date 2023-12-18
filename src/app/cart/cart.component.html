@@ -1,0 +1,6 @@
+<div>
+  <h1>Shopping Cart</h1>
+  <ul *ngFor="let item of cartItems$ | async">
+    <li>{{ item.name }}</li>
+  </ul>
+</div>
