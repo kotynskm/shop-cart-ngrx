@@ -6,7 +6,7 @@ export interface CartState {
   cartItems: Item[];
 }
 export const initialState: CartState = {
-  cartItems: [{ name: 'item', id: '1' }],
+  cartItems: [{ name: 'item', id: '1', price: 1, details: 'test item' }],
 };
 
 export const cartReducer = createReducer(
